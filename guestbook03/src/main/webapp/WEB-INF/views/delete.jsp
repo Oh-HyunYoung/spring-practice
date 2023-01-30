@@ -6,7 +6,7 @@
 <title>방명록</title>
 </head>
 <body>
-	<form method="post" action="${pageContext.request.contextPath }/gb?a=delete">
+	<form method="post" action="${pageContext.request.contextPath }/delete/${no}">
 		<input type='hidden' name="no" value="${vo.no }">
 		<table>
 			<tr>
@@ -16,7 +16,7 @@
 			</tr>
 		</table>
 		<br><br>
-		<a href="${pageContext.request.contextPath }/gb">메인으로 돌아가기</a>
+		<a href="${pageContext.request.contextPath }">메인으로 돌아가기</a>
 	</form>
 </body>
 </html>
