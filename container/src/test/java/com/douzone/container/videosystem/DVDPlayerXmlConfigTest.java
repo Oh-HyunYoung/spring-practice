@@ -151,16 +151,16 @@ public class DVDPlayerXmlConfigTest {
 	
 	@Test
 	public void testPlay3() {
-		assertEquals("Playing Movie MARVEL's Iron Man",dvdPlayer3.play());//
+		assertEquals("Playing Movie MARVEL's Iron Man",dvdPlayer3.play());
 	}
 	
 	@Test
 	public void testPlay4() {
-		assertEquals("Playing Movie MARVEL's Iron Man",dvdPlayer4.play());//
+		assertEquals("Playing Movie MARVEL's Iron Man",dvdPlayer4.play());
 	}
 	
 	@Test
 	public void testPlay5() {
-		assertEquals("Playing Movie MARVEL's Iron Man",dvdPlayer5.play());//
+		assertEquals("Playing Movie MARVEL's Iron Man",dvdPlayer5.play());
 	}
 }
